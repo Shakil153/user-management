@@ -6,7 +6,35 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+## About the project:
+---Specification of this project---
+Lravel Version: 9
+PHP version Support: >=8.1
 
+## How Run this proejct
+
+-clone the project from github
+-Update Composer
+-Connect database
+-Run migration
+
+---API url to test:
+#For user fetch
+http://127.0.0.1:8000/api/user
+
+#For user create
+http://127.0.0.1:8000/api/user-store
+
+#For user profile 
+http://127.0.0.1:8000/api/user-porfile/(ID)
+
+#For user update
+http://127.0.0.1:8000/api/user-update/(ID)
+
+#For user Delete
+http://127.0.0.1:8000/api/user-delete/(ID)
+
+No Authentiocation. 
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
