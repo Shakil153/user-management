@@ -10,6 +10,12 @@ class CrudService{
 	public function store(CrudInterface $crudinterface){
 		$crudinterface->store();
 	}
+	public function show(CrudInterface $crudinterface){
+		return $crudinterface->show();
+	}
+	public function edit(CrudInterface $crudinterface){
+		return $crudinterface->edit();
+	}
 	public function update(CrudInterface $crudinterface){
 		$crudinterface->update();
 	}
